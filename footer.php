@@ -11,7 +11,6 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/holder.js"></script>
 
 <?php wp_footer(); ?>
 </body>

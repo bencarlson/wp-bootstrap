@@ -1,4 +1,7 @@
 <?php
+
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
  
 //Add support for WordPress 3.0's custom menus
 add_action( 'init', 'register_my_menu' );
@@ -23,5 +26,6 @@ add_custom_background();
 
 //Enable post and comments RSS feed links to head
 add_theme_support( 'automatic-feed-links' );
+
  
 ?>

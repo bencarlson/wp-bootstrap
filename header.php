@@ -35,7 +35,7 @@
 <div class="navbar-wrapper">
       <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,31 +47,25 @@
               <a class="navbar-brand" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
+         
+         
+         <?php 
+         wp_nav_menu( array(
+        	'menu'              => 'primary',
+        	'theme_location'    => 'primary-menu',
+        	'depth'             => 2,
+        	'container'         => 'div',
+        	'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
+        	'menu_class'        => 'nav navbar-nav',
+        	'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+        	'walker'            => new wp_bootstrap_navwalker())
+    	); 
+		?>
+          
             </div>
           </div>
         </div>
 
       </div>
     </div>
-
-<?php /*
-<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ) ); ?>
-*/ ?>
-
+    
