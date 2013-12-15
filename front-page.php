@@ -13,30 +13,27 @@
         <div class="item active">
           <img src="<?php bloginfo('template_directory'); ?>/images/rackofribs.jpg" alt="First slide">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <div class="carousel-caption text-left">
+              <h1>Sven's Barbecue Sauce.</h1>
+              <p>Sweet and Thick, Just Like Your Aunt Hilda.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="<?php bloginfo('template_directory'); ?>/images/" alt="Second slide">
+          <img src="<?php bloginfo('template_directory'); ?>/images/bbq-chicken.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>Saucy.</h1>
+              <p>Grill i dag håller doktorn borta.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="<?php bloginfo('template_directory'); ?>/images/" alt="Third slide">
+          <img src="<?php bloginfo('template_directory'); ?>/images/wingsongrill.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Barbecue.</h1>
+              <p>Screw Shrimp, Put Another Full Rack of Ribs on the Barbie!</p>
             </div>
           </div>
         </div>

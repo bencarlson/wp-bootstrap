@@ -13,3 +13,8 @@ Version: 1.0
     opacity: 0.6; /* CSS3 */
 }
 
+h1, h2 {
+	font-family: "Buenard","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
