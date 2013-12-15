@@ -6,3 +6,10 @@ Author: Benjamin Carlson
 Author URI: http://www.hillfold.com
 Version: 1.0
 */
+
+.navbar {
+	filter:alpha(opacity=60); /* IE */
+    -moz-opacity:0.6; /* Mozilla */
+    opacity: 0.6; /* CSS3 */
+}
+

@@ -35,7 +35,7 @@
 <div class="navbar-wrapper">
       <div class="container">
 
-        <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -44,24 +44,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a>
+              <?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
+        		<a class="navbar-brand" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+			  <?php else : ?>
+        			<a class="navbar-brand" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a>
+			  <?php endif; ?>
             </div>
             <div class="navbar-collapse collapse">
-         
-         
-         <?php 
-         wp_nav_menu( array(
-        	'menu'              => 'primary',
-        	'theme_location'    => 'primary-menu',
-        	'depth'             => 2,
-        	'container'         => 'div',
-        	'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
-        	'menu_class'        => 'nav navbar-nav',
-        	'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-        	'walker'            => new wp_bootstrap_navwalker())
-    	); 
-		?>
-          
+         	<?php  /* menu */
+         	wp_nav_menu( array(
+        		'menu'              => 'primary',
+        		'theme_location'    => 'primary-menu',
+        		'depth'             => 2,
+        		'container'         => 'div',
+        		'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
+        		'menu_class'        => 'nav navbar-nav',
+        		'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+        		'walker'            => new wp_bootstrap_navwalker())
+    		); 
+			?>
             </div>
           </div>
         </div>

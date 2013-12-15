@@ -1,10 +1,14 @@
 <?php get_header(); ?>
  
-    <div id="blog">
+<div class="container">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-12">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
          
         <div class="post">
-        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  
  
             <div class="entry">
@@ -26,6 +30,7 @@
     </div>
  
 <?php endif; ?>
+</div>
 </div>
  
 <?php get_sidebar(); ?>   

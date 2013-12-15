@@ -1,11 +1,15 @@
 <?php get_header(); ?>
  
-    <div id="blog">
+<div class="container">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-12">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
          
     <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
       <?php /* If this is a category archive */ if (is_category()) { ?>
-        <h2>Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category:</h2>
+        <h2><?php single_cat_title(); ?></h2>
       <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
         <h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
       <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
@@ -43,6 +47,7 @@
  
 <?php endif; ?>
  
+</div>
 </div>
  
 <?php get_sidebar(); ?>   
