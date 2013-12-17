@@ -1,10 +1,13 @@
 /*
-Theme Name: bbq
-Theme URI: http://www.hillfold.com
-Description: A wordpress 3.8+ theme for Bootstrap 3
+Theme Name: wp-bootstrap
+Theme URI: https://github.com/bencarlson/wp-bootstrap
+Description: A wordpress 3.8+ theme built on Bootstrap 3
 Author: Benjamin Carlson
 Author URI: http://www.hillfold.com
+Author Email: ben@hillfold.com
+License: MIT
 Version: 1.0
+Tags: custom-background, black, blue, brown, white, dark, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-image-header, flexible-header, full-width-template, theme-options
 */
 
 .navbar {
@@ -12,9 +15,15 @@ Version: 1.0
     -moz-opacity:0.6; /* Mozilla */
     opacity: 0.6; /* CSS3 */
 }
+.navbar-brand {
+	padding: 0;
+}
 
 h1, h2 {
 	font-family: "Buenard","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.container-normal {
+	margin-top: 40px;
+}
 

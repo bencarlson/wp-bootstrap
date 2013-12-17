@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container container-normal">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">

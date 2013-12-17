@@ -1,3 +1,4 @@
+	<hr class="featurette-divider" />
 
       <!-- FOOTER -->
       <footer>
