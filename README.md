@@ -1,11 +1,11 @@
 wp-bootstrap
 ============
 
-Wordpress Bootstrap 3 Starter Theme
+WordPress Bootstrap 3 Starter Theme
 
 ![Screenshot of wp-bootstrap](https://github.com/bencarlson/wp-bootstrap/blob/master/screenshot.png?raw=true "Quick Screenshot")
 
-A Wordpress theme built from scratch with Bootstrap 3. It's a starting point for any Wordpress / Bootstrap 3 development efforts, not a finished product. 
+A WordPress theme built from scratch with Bootstrap 3. It's a starting point for any WordPress / Bootstrap 3 development efforts, not a finished product. 
 
 It allows for configuring a custom logo in the wp-admin area. 
 
