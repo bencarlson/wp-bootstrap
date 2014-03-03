@@ -15,6 +15,5 @@ It has a custom frontpage, if you care to use it, based on one of the Bootstrap 
 
 Let me know if you have any issues with it, and feel free to send requests!
 
-Here's a demo site: http://hillfold.com/
 
 -Ben ben@hillfold.com
