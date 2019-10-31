@@ -27,3 +27,53 @@ h1, h2 {
 	margin-top: 40px;
 }
 
+
+.wp-caption {
+
+}
+
+.wp-caption img[class*="wp-image-"] {
+
+}
+
+.wp-caption .wp-caption-text {
+
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption{
+
+}
+.wp-caption .wp-caption-text,
+.gallery-caption{
+
+}
+
+.sticky .posted-on,
+.byline {
+
+}
+.screen-reader-text {
+
+}
+
+.bypostauthor > article .fn:after {
+
+}
+
+.bypostauthor > article .fn:after {
+
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+}

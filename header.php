@@ -2,11 +2,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
- 
-<link rel="profile" href="http://gmpg.org/xfn/11" />
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -14,21 +11,18 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="<?php bloginfo('template_directory'); ?>/carousel.css" rel="stylesheet">
-
 <link href='https://fonts.googleapis.com/css?family=Buenard:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
- 
+
 <?php
-    /* 
+    /*
      *  Add this to support sites with sites with threaded comments enabled.
      */
     if ( is_singular() && get_option( 'thread_comments' ) )
         wp_enqueue_script( 'comment-reply' );
 
     wp_get_archives('type=monthly&format=link');
- 
+
     wp_head();
 ?>
 </head>
@@ -62,7 +56,7 @@
         		'menu_class'        => 'nav navbar-nav',
         		'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
         		'walker'            => new wp_bootstrap_navwalker())
-    		); 
+    		);
 			?>
             </div>
           </div>
@@ -70,4 +64,3 @@
 
       </div>
     </div>
-    
