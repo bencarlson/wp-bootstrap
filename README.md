@@ -13,7 +13,7 @@ I've solved the nasty navigation issues that you'll run into if starting from sc
 
 It has a custom frontpage, if you care to use it, based on one of the Bootstrap examples.
 
-Let me know if you have any issues with it, and feel free to send requests!
+Let me know if you have any issues with it, and feel free to send pull requests!
 
 
--Ben ben@hillfold.com
+-Ben
