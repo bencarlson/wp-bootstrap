@@ -14,8 +14,8 @@
           <img src="<?php bloginfo('template_directory'); ?>/images/rackofribs.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
-              <h1>Sven's Barbecue Sauce.</h1>
-              <p>Sweet and Thick, Just Like Aunt Hilda.</p>
+              <h1><?php _e( "Sven's Barbecue Sauce.", 'wp-bootstrap' ); ?></h1>
+              <p><?php _e( "Sweet and Thick, Just Like Aunt Hilda.", 'wp-bootstrap' ); ?></p>
             </div>
           </div>
         </div>
@@ -23,8 +23,8 @@
           <img src="<?php bloginfo('template_directory'); ?>/images/bbq-chicken.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Saucy.</h1>
-              <p>Grill i dag håller doktorn borta.</p>
+              <h1><?php _e( 'Saucy.', 'wp-bootstrap' ); ?></h1>
+              <p><?php _e( "Grill i dag håller doktorn borta.", 'wp-bootstrap' ); ?></p>
             </div>
           </div>
         </div>
@@ -32,8 +32,8 @@
           <img src="<?php bloginfo('template_directory'); ?>/images/wingsongrill.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Barbecue.</h1>
-              <p>Screw Shrimp, Put Another Full Rack of Ribs on the Barbie!</p>
+              <h1><?php _e( 'Barbecue.', 'wp-bootstrap' ); ?></h1>
+              <p><?php _e( "Screw Shrimp, Put Another Full Rack of Ribs on the Barbie!", 'wp-bootstrap' ); ?></p>
             </div>
           </div>
         </div>
@@ -53,21 +53,21 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><?php _e( 'Heading', 'wp-bootstrap' ); ?></h2>
+          <p><?php _e( 'Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.', 'wp-bootstrap' ); ?></p>
+          <p><a class="btn btn-default" href="#" role="button"><?php _e( 'View details', 'wp-bootstrap' ); ?> &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><?php _e( 'Heading', 'wp-bootstrap' ); ?></h2>
+          <p><?php _e( 'Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.', 'wp-bootstrap' ); ?></p>
+          <p><a class="btn btn-default" href="#" role="button"><?php _e( 'View details', 'wp-bootstrap' ); ?> &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+				<div class="col-lg-4">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><?php _e( 'Heading', 'wp-bootstrap' ); ?></h2>
+          <p><?php _e( 'Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.', 'wp-bootstrap' ); ?></p>
+          <p><a class="btn btn-default" href="#" role="button"><?php _e( 'View details', 'wp-bootstrap' ); ?> &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -78,8 +78,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"><?php _e( 'First featurette heading.', 'wp-bootstrap' ); ?> <span class="text-muted"><?php _e( "It'll blow your mind.", 'wp-bootstrap' ); ?></span></h2>
+          <p class="lead"><?php _e( 'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.', 'wp-bootstrap' ); ?></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
@@ -93,8 +93,8 @@
           <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"><?php _e( "Oh yeah, it's that good.", 'wp-bootstrap' ); ?> <span class="text-muted"><?php _e( 'See for yourself.', 'wp-bootstrap' ); ?></span></h2>
+          <p class="lead"><?php _e( 'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.', 'wp-bootstrap' ); ?></p>
         </div>
       </div>
 
@@ -102,8 +102,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"><?php _e( 'And lastly, this one.', 'wp-bootstrap' ); ?> <span class="text-muted"><?php _e( 'Checkmate.', 'wp-bootstrap' ); ?></span></h2>
+          <p class="lead"><?php _e( 'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.', 'wp-bootstrap' ); ?></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
